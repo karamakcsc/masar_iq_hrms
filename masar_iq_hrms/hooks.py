@@ -227,3 +227,21 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {"dt": "Custom Field", "filters": [
+        [
+            "name", "in", [
+    			"Employee-custom_full_name_ar",
+                "Employee-custom_id_details",
+                "Employee-custom_id_number",
+                "Employee-custom_valid_upto_id",
+                "Employee-custom_column_break_qirc1",
+                "Employee-custom_date_of_issue_id",
+                "Employee-custom_place_of_issue_id",
+                "Employee-custom_family_details",
+                "Employee-custom_family_members",
+                "Employee-custom_children_subject_to_allowance"
+            ]
+        ]
+    ]}
+]

@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-22 14:37:53.523643",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "family_member_section",
+  "relative_name",
+  "relative_relation",
+  "birth_date",
+  "age",
+  "column_break_kzuv",
+  "marrige_date",
+  "allowance_activation_date",
+  "allowance_cancellation_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "relative_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Relative Name"
+  },
+  {
+   "fieldname": "relative_relation",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Relative Relation",
+   "options": "Spouse\nSon\nDaughter"
+  },
+  {
+   "fieldname": "birth_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Birth Date"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "marrige_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Marrige Date"
+  },
+  {
+   "fieldname": "allowance_activation_date",
+   "fieldtype": "Date",
+   "label": "Allowance Activation Date"
+  },
+  {
+   "fieldname": "allowance_cancellation_date",
+   "fieldtype": "Data",
+   "label": "Allowance Cancellation Date"
+  },
+  {
+   "fieldname": "family_member_section",
+   "fieldtype": "Section Break",
+   "label": "Family Member"
+  },
+  {
+   "fieldname": "column_break_kzuv",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-22 14:54:07.091196",
+ "modified_by": "Administrator",
+ "module": "Masar Iraq HRMS",
+ "name": "Family Member",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
